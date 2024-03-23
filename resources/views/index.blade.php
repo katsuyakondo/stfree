@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/globals.css" />
-    <link rel="stylesheet" href="css/styleguide.css" />
 </head>
 
 <body>
@@ -18,7 +18,7 @@
                 <div class="overlap-group-wrapper">
                     <div class="overlap-group">
                         <div class="div-wrapper">
-                      <a href="voice_Page2.html" class="text-wrapper-2">声でぶつけてみる</a>
+                      <a href="{{ route('voice.page2') }}" class="text-wrapper-2">声でぶつけてみる</a>
                       </div>
                     </div>
                 </div>
@@ -26,7 +26,7 @@
             <div class="group-wrapper">
                 <div class="overlap-group-wrapper">
                     <div class="div-wrapper">
-                        <a href="textinput.html" class="text-wrapper-3">テキストでぶつけてみる</div>
+                        <a href="textinput.blade.php" class="text-wrapper-3">テキストでぶつけてみる</div>
                     </div>
                 </div>
             </div>

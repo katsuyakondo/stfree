@@ -5,8 +5,12 @@ use App\Http\Controllers\MessageController;
 use App\Http\Controllers\OpenAIController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+
+Route::get('/voice-page2', function () {
+    return view('voice_Page2');
+})->name('voice.page2');
 
 // メッセージ送受信関連のルート
 Route::middleware('auth:sanctum')->group(function () {

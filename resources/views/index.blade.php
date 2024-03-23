@@ -13,7 +13,7 @@
 
             <div class="rectangle"></div>
             <img class="element" src="image/logo.png" />
-            <div class="div">嫌な気持ちをすべてぶつけてみて！<br />なんでも言って！</div>
+            <div class="div">嫌な気持ちをすべてぶつけてみて！!<br />なんでも言って！</div>
             <div class="group">
                 <div class="overlap-group-wrapper">
                     <div class="overlap-group">

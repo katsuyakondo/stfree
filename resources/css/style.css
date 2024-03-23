@@ -1,0 +1,9 @@
+body{
+    width: 360px;
+    height: 800px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #FFF;
+    margin-left: 400px;
+
+}

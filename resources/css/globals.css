@@ -1,0 +1,200 @@
+/* .android-large {
+    width: 360px;
+    height: 800px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+} */
+
+.android-large .overlap {
+    position: relative;
+    width: 360px;
+    height: 800px;
+    top: 0;
+    left: 400px;
+}
+
+.android-large .status-bar {
+    display: flex;
+    width: 353px;
+    height: 42px;
+    align-items: flex-end;
+    position: absolute;
+    top: 0;
+    left: 7px;
+}
+
+.android-large .status {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 16px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.android-large .time-date {
+    display: flex;
+    width: 128px;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+}
+
+.android-large .text-wrapper {
+    position: relative;
+    width: fit-content;
+    color: var(--aospsyslighton-surface);
+    font-size: var(--AOSP-body-medium-font-size);
+    font-family: var(--AOSP-body-medium-font-family);
+    font-weight: var(--AOSP-body-medium-font-weight);
+    letter-spacing: var(--AOSP-body-medium-letter-spacing);
+    line-height: var(--AOSP-body-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--AOSP-body-medium-font-style);
+}
+
+.android-large .status-icons {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -6px;
+    margin-bottom: -6px;
+}
+
+.android-large .img {
+    position: relative;
+    width: 16px;
+    height: 16px;
+}
+
+.android-large .signal {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    margin-left: -2px;
+}
+
+
+.android-large .rectangle {
+    position: absolute;
+    width: 360px;
+    height: 800px;
+    top: 0;
+    left: 0;
+    border: 5px solid;
+    border-color: #d9d9d9;
+}
+
+.android-large .element {
+    position: absolute;
+    width: 236px;
+    height: 235px;
+    top: 256px;
+    left: 62px;
+    object-fit: cover;
+}
+
+.android-large .div {
+    position: absolute;
+    width: 285px;
+    height: 82px;
+    top: 125px;
+    left: 37px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    line-height: 20px;
+}
+
+.android-large .group {
+    position: absolute;
+    width: 236px;
+    height: 43px;
+    top: 608px;
+    left: 62px;
+}
+
+.android-large .overlap-group-wrapper {
+    width: 238px;
+    height: 43px;
+}
+
+.android-large .overlap-group {
+    position: relative;
+    width: 236px;
+    height: 43px;
+    border-radius: 118px/21.5px;
+}
+
+.android-large .ellipse {
+    position: absolute;
+    width: 236px;
+    height: 43px;
+    top: 0;
+    left: 0;
+    background-color: #acd4d4;
+    border-radius: 118px/21.5px;
+    border: 2px solid;
+    border-color: #d9d9d9;
+}
+
+.android-large .text-wrapper-2 {
+    position: absolute;
+    width: 206px;
+    height: 22px;
+    top: 11px;
+    left: 15px;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.android-large .group-wrapper {
+    position: absolute;
+    width: 236px;
+    height: 43px;
+    top: 663px;
+    left: 62px;
+}
+
+.android-large .div-wrapper {
+    position: relative;
+    width: 236px;
+    height: 43px;
+    background-color: #acd4d4;
+    border-radius: 118px/21.5px;
+    border: 2px solid;
+    border-color: #d9d9d9;
+}
+
+.android-large .text-wrapper-3 {
+    position: absolute;
+    width: 206px;
+    height: 22px;
+    top: 9px;
+    left: 13px;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-decoration: none;
+}

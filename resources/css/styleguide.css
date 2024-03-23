@@ -1,0 +1,9 @@
+:root {
+    --aospsyslighton-surface: rgba(25, 28, 27, 1);
+    --AOSP-body-medium-font-family: "Roboto", Helvetica;
+    --AOSP-body-medium-font-weight: 400;
+    --AOSP-body-medium-font-size: 14px;
+    --AOSP-body-medium-letter-spacing: 0.25px;
+    --AOSP-body-medium-line-height: 20px;
+    --AOSP-body-medium-font-style: normal;
+}
